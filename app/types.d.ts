@@ -9,3 +9,15 @@ interface StatusCheckFail {
   result: null
 }
 export type StatusCheckResult = StatusCheckSuccess | StatusCheckFail
+
+interface Feature {
+  icon: string,
+  title: string,
+  description: string,
+}
+
+interface Testimonial {
+  avatar: string,
+  name: string,
+  image: string,
+}

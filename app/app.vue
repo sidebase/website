@@ -1,7 +1,7 @@
 <template>
-  <div class="h-screen w-full bg-green-300">
+  <div class="h-full w-full bg-gradient-to-b from-gray-700 via-gray-900 to-gray-600">
     <Head>
-      <Title>sidebase</Title>
+      <Title>SideBase</Title>
     </Head>
     <NuxtPage />
   </div>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Cooper-Hewitt;
+    src: url('./fonts/cooper-hewitt/CooperHewitt-Medium.otf');
+}
+
+@font-face {
+    font-family: Cooper-Hewitt;
+    src: url('./fonts/cooper-hewitt/CooperHewitt-Light.otf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Cooper-Hewitt;
+    src: url('./fonts/cooper-hewitt/CooperHewitt-Bold.otf');
+    font-weight: bold;
+}
+
+html {
+    color-scheme: dark;
+}
