@@ -19,8 +19,7 @@
     "story": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
-    "generate": "nuxi generate"
-  },
+},
   "dependencies": {
     "sass": "^1.54.8",
     "sqlite3": "^5.0.11",
