@@ -18,10 +18,9 @@
     "postinstall": "nuxi prepare",
     "story": "histoire dev",
     "story:build": "histoire build",
-    "story:preview": "histoire preview"
-  },
+    "story:preview": "histoire preview",
+},
   "dependencies": {
-    "primevue": "^3.16.2",
     "sass": "^1.54.8",
     "sqlite3": "^5.0.11",
     "typeorm": "^0.3.9",

@@ -10,6 +10,10 @@ if (isProduction) {
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
+  // Needed to keep `ant-design-vue` running as of latest RC.8, see https://github.com/nuxt/framework/issues/6941#issuecomment-1229739856
+  alias: {
+    dayjs: 'dayjs/esm/',
+  },
   css: [
     'primevue/resources/themes/lara-light-teal/theme.css',
     'primevue/resources/primevue.css',

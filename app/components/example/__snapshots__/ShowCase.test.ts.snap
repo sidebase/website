@@ -1,18 +1,8 @@
 // Vitest Snapshot v1
 
 exports[`ShowCase > mounts and is still the same 1`] = `
-"<div class=\\"p-1\\">
+"<div class=\\"p-1\\" nameinitialvalue=\\"Udo\\">
   <h1>Form:</h1>
-  <p>An ant design form that emits a submit on click to the button. Note that we use is via an \\"auto-import\\", we did not need to perform a manual import in the scripts section.</p>
-  <form>
-    <div class=\\"flex\\"><span class=\\"ant-input-group-wrapper\\"><span class=\\"ant-input-wrapper ant-input-group\\"><span class=\\"ant-input-group-addon\\">Please enter your name:</span><input placeholder=\\"Your name...\\" type=\\"text\\" class=\\"ant-input\\">
-      <!----></span></span><button class=\\"ant-btn ant-btn-primary\\" type=\\"submit\\">
-        <transition-stub>
-          <!---->
-        </transition-stub><span>Submit</span>
-      </button>
-    </div>
-  </form>
   <div class=\\"mt-2\\">
     <h1>Nuxt link:</h1>
     <p>This is a nuxt-link, a nuxt native component that we can easily use in histoire.</p>

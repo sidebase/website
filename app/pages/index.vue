@@ -2,7 +2,7 @@
 import Navbar from '~/components/Navbar.vue'
 import HeroSection from '~/components/HeroSection.vue'
 import FeatureSection from '~/components/FeatureSection.vue'
-import TestimonialsSection from '~/components/TestimonialsSection.vue'
+// import TestimonialsSection from '~/components/TestimonialsSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/Footer.vue'
 </script>
@@ -11,9 +11,11 @@ import Footer from '~/components/Footer.vue'
   <div>
     <Navbar />
     <HeroSection />
-    <div class="flex flex-col space-y-14">
+    <div class="flex flex-col space-y-20 mt-20">
       <FeatureSection />
+      <!--
       <TestimonialsSection />
+      -->
       <ContactSection />
     </div>
     <Footer />
