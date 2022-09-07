@@ -6,7 +6,6 @@ import { setupApiAndDatabase } from '../../utils'
 import handlerExampleGet from '~/server/api/example/[id].get'
 import handlerExamplePatch from '~/server/api/example/[id].patch'
 import handlerExampleGetAll from '~/server/api/example/index'
-import { consoleSpyError } from '~/tests/setupTestUtils'
 import { Example } from '~/server/database/entities/Example'
 
 const endpointBasePath = '/example'
@@ -43,21 +42,6 @@ describe(`GET ${endpointBasePath}`, () => {
 // Generate test cases that check if `id` parameter is correctly validated for `id` based endpoints
 const idBasedEndpoints = endpoints.filter(endpoint => endpoint.path.endsWith('/:id'))
 describe.each(idBasedEndpoints)(`$method ${endpointBasePath}/:id check 404 and 422 for parameter`, ({ method }) => {
-  it('should throw a 404 error for an unknown id', async () => {
-    const response = await request[method](`${endpointBasePath}/${faker.datatype.uuid()}`)
-
-    expect(response.statusCode).toBe(404)
-    expect(response.body).toStrictEqual({
-      stack: [],
-      statusCode: 404,
-      statusMessage: 'Failed to find desired record',
-    })
-
-    // Assert that server logged error, then reset spy so that global no-console-error assert does not fail
-    expect(consoleSpyError).toHaveBeenCalledOnce()
-    consoleSpyError.mockClear()
-  })
-
   it('should throw a 422 error for a invalid id', async () => {
     const response = await request[method](`${endpointBasePath}/bad-uuid`)
 
