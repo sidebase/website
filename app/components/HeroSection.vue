@@ -2,15 +2,7 @@
   <div class="flex items-center justify-center h-[55vh] mx-4">
     <div class="flex flex-col">
       <div class="text-center">
-        <div class="w-[150px] h-[150px] lg:h-[300px] lg:w-[300px] mx-auto">
-          <client-only>
-            <!-- https://assets2.lottiefiles.com/packages/lf20_eux2nl1l.json -->
-            <Vue3Lottie
-              animation-link="https://assets8.lottiefiles.com/packages/lf20_caltkbh1.json"
-              :speed="0.75"
-            />
-          </client-only>
-        </div>
+        <img src="/Logo.png" class="h-[250px] w-[250px] mx-auto">
         <h1 class="text-6xl md:text-8xl text-SideBase-green font-bold">
           sidebase
         </h1>
