@@ -20,7 +20,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="my-20">
+  <div class="my-20 mx-4">
     <h1 class="text-4xl text-center text-gray-200">
       <i class="pi pi-comments text-green-400" style="font-size: 1.7rem" /> What others think <i class="pi pi-comments text-green-400" style="font-size: 1.7rem" />
     </h1>
@@ -45,15 +45,12 @@ export default defineComponent({
           :key="index"
         >
           <img
-            class="h-[125px] w-[125px] rounded-lg"
+            class="h-[125px] w-[125px] rounded-full"
             :src="testimonial.avatar"
             :alt="testimonial.name"
             style="cursor: pointer"
             @click="imageClick(index)"
           >
-          <p class="text-center text-SideBase-green">
-            {{ testimonial.name }}
-          </p>
         </div>
       </div>
     </div>
