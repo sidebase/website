@@ -1,0 +1,160 @@
+{
+  "node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "_nuxt/primeicons.c9eaf535.eot",
+    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  },
+  "node_modules/primevue/resources/images/color.png": {
+    "file": "_nuxt/color.473bc8ca.png",
+    "src": "node_modules/primevue/resources/images/color.png"
+  },
+  "assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf": {
+    "file": "_nuxt/CooperHewitt-Bold.b1bb7177.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf"
+  },
+  "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf": {
+    "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
+  },
+  "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf": {
+    "file": "_nuxt/CooperHewitt-Medium.e32bf29a.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff2": {
+    "file": "_nuxt/Inter-Light.36b86832.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff2"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff2": {
+    "file": "_nuxt/Inter-Medium.1b498b95.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff2"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff2": {
+    "file": "_nuxt/Inter-SemiBold.15226129.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff2"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2": {
+    "file": "_nuxt/Inter-Bold.c63158ba.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2": {
+    "file": "_nuxt/Inter-Regular.d612f121.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2"
+  },
+  "node_modules/primeicons/fonts/primeicons.ttf": {
+    "file": "_nuxt/primeicons.788dba0a.ttf",
+    "src": "node_modules/primeicons/fonts/primeicons.ttf"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff": {
+    "file": "_nuxt/Inter-SemiBold.653fed7a.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff": {
+    "file": "_nuxt/Inter-Light.4871aed0.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff": {
+    "file": "_nuxt/Inter-Bold.3e242080.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff": {
+    "file": "_nuxt/Inter-Medium.53deda46.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff": {
+    "file": "_nuxt/Inter-Regular.ef1f23c0.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff"
+  },
+  "node_modules/primeicons/fonts/primeicons.woff": {
+    "file": "_nuxt/primeicons.feb68bf6.woff",
+    "src": "node_modules/primeicons/fonts/primeicons.woff"
+  },
+  "node_modules/primeicons/fonts/primeicons.svg": {
+    "file": "_nuxt/primeicons.2ab98f70.svg",
+    "src": "node_modules/primeicons/fonts/primeicons.svg"
+  },
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "_nuxt/entry.aad5c005.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/index.vue",
+      "virtual:nuxt:/Users/zoey/Documents/Development/SideStream/sidebase-website/app/.nuxt/error-component.mjs"
+    ],
+    "css": [
+      "_nuxt/entry.3d936e5e.css"
+    ],
+    "assets": [
+      "_nuxt/Inter-Light.36b86832.woff2",
+      "_nuxt/Inter-Light.4871aed0.woff",
+      "_nuxt/Inter-Regular.d612f121.woff2",
+      "_nuxt/Inter-Regular.ef1f23c0.woff",
+      "_nuxt/Inter-Medium.1b498b95.woff2",
+      "_nuxt/Inter-Medium.53deda46.woff",
+      "_nuxt/Inter-SemiBold.15226129.woff2",
+      "_nuxt/Inter-SemiBold.653fed7a.woff",
+      "_nuxt/Inter-Bold.c63158ba.woff2",
+      "_nuxt/Inter-Bold.3e242080.woff",
+      "_nuxt/color.473bc8ca.png",
+      "_nuxt/primeicons.c9eaf535.eot",
+      "_nuxt/primeicons.788dba0a.ttf",
+      "_nuxt/primeicons.feb68bf6.woff",
+      "_nuxt/primeicons.2ab98f70.svg",
+      "_nuxt/CooperHewitt-Medium.e32bf29a.otf",
+      "_nuxt/CooperHewitt-Light.526bdb62.otf",
+      "_nuxt/CooperHewitt-Bold.b1bb7177.otf"
+    ]
+  },
+  "virtual:nuxt:/Users/zoey/Documents/Development/SideStream/sidebase-website/app/.nuxt/error-component.mjs": {
+    "file": "_nuxt/error-component.374dde16.mjs",
+    "src": "virtual:nuxt:/Users/zoey/Documents/Development/SideStream/sidebase-website/app/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "_nuxt/index.bd003c0a.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "_nuxt/error-404.1d8154da.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "_nuxt/error-404.7729cee9.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "_nuxt/error-500.7cc9e4c2.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "_nuxt/error-500.08851880.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "file": "_nuxt/error-500.08851880.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "file": "_nuxt/error-404.7729cee9.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "file": "_nuxt/entry.3d936e5e.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  }
+}

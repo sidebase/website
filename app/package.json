@@ -19,7 +19,8 @@
     "story": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview",
-},
+    "generate": "nuxi generate && rm -rf ../docs && mv .output/public ../docs && touch ../docs/.nojekyll"
+  },
   "dependencies": {
     "sass": "^1.54.8",
     "sqlite3": "^5.0.11",
