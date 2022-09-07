@@ -18,7 +18,8 @@
     "postinstall": "nuxi prepare",
     "story": "histoire dev",
     "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "story:preview": "histoire preview",
+    "generate": "nuxi generate && rm -rf ../docs && mv .output/public ../docs && touch ../docs/.nojekyll"
   },
   "dependencies": {
     "primevue": "^3.16.2",
