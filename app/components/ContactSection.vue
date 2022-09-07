@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-gray-800/80 py-12">
+  <div class="w-full bg-gray-800/80 py-12 px-4">
     <h1 class="text-4xl text-center text-gray-200">
       Contact Us
     </h1>
