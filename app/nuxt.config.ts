@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     'primevue/resources/themes/lara-light-teal/theme.css',
     'primevue/resources/primevue.css',
     'primeicons/primeicons.css',
-    'vue3-lottie/dist/style.css',
     '~/assets/globals.css',
   ],
   typescript: {

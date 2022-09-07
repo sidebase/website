@@ -4,7 +4,7 @@ import features from '~/data/features'
 </script>
 
 <template>
-  <div class="w-full my-20">
+  <div class="w-full my-28">
     <h1 class="text-4xl text-center text-gray-200">
       <i class="pi pi-bolt text-yellow-300" style="font-size: 1.7rem" /> Features <i class="pi pi-bolt text-yellow-300" style="font-size: 1.7rem" />
     </h1>
