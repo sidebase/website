@@ -6,7 +6,6 @@ import { setupApiAndDatabase } from '../../utils'
 import handlerExampleGet from '~/server/api/example/[id].get'
 import handlerExamplePatch from '~/server/api/example/[id].patch'
 import handlerExampleGetAll from '~/server/api/example/index'
-import { consoleSpyError } from '~/tests/setupTestUtils'
 import { Example } from '~/server/database/entities/Example'
 
 const endpointBasePath = '/example'
