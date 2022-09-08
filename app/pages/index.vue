@@ -7,7 +7,7 @@ import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/Footer.vue'
 import { useHead } from '#head'
 
-const SITE_TITLE = 'SideBase ▸ by SideStream'
+const SITE_TITLE = 'sidebase ▸ by SIDESTREAM'
 const PREVIEW_IMAGE = '/Social_Preview.jpeg'
 const SITE_DESCRIPTION = 'sidebase is a modern, best-practice, batteries-included fullstack-app starter based on Nuxt3 and TypeScript.'
 const TWITTER_HANDLE = '@sidebase_io'
