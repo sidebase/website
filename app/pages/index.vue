@@ -28,6 +28,13 @@ useHead({
     { name: 'twitter:description', content: SITE_DESCRIPTION },
     { name: 'twitter:image', content: PREVIEW_IMAGE },
   ],
+  script: [
+    {
+      'src': 'https://plausible.io/js/plausible.js',
+      'data-domain': 'sidebase.io',
+      'defer': true,
+    },
+  ],
 })
 </script>
 
