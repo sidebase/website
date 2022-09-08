@@ -2,7 +2,6 @@
 import Navbar from '~/components/Navbar.vue'
 import HeroSection from '~/components/HeroSection.vue'
 import FeatureSection from '~/components/FeatureSection.vue'
-// import TestimonialsSection from '~/components/TestimonialsSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/Footer.vue'
 import { useHead } from '#head'
@@ -45,9 +44,6 @@ useHead({
     <HeroSection />
     <div class="flex flex-col space-y-20 mt-20">
       <FeatureSection />
-      <!--
-      <TestimonialsSection />
-      -->
       <ContactSection />
     </div>
     <Footer />
