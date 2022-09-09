@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full py-4 shadow bg-gray-800">
+  <div class="hidden lg:block w-full py-4 shadow bg-gray-800">
     <div class="container mx-auto flex items-center justify-between">
       <div class="flex items-center gap-3 text-gray-300">
         <i class="pi pi-bolt" style="font-size: 2rem; margin-top: 2px" />
