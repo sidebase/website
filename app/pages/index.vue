@@ -5,6 +5,7 @@ import FeatureSection from '~/components/FeatureSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/Footer.vue'
 import { useHead } from '#head'
+import Banner from '~/components/Banner.vue'
 
 const SITE_TITLE = 'sidebase ▸ by SIDESTREAM'
 const PREVIEW_IMAGE = '/Social_Preview.jpeg'
@@ -40,6 +41,7 @@ useHead({
 
 <template>
   <div>
+    <Banner />
     <Navbar />
     <HeroSection />
     <div class="flex flex-col space-y-20 mt-20">
