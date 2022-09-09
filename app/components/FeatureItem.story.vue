@@ -2,7 +2,7 @@
 import { faker } from '@faker-js/faker'
 import FeatureItem from './FeatureItem.vue'
 
-const demoFeature: FeatureItem = {
+const demoFeature = {
   icon: 'pi-database',
   title: faker.word.adjective(),
   description: faker.lorem.lines(1),
