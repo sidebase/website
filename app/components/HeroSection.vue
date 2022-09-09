@@ -1,5 +1,6 @@
 <script lang="ts" setup>
-import DemoVideo from '~/components/DemoVideo.vue'
+import Button from 'primevue/button'
+import YoutubePlayer from './YoutubePlayer.vue'
 </script>
 
 <template>
@@ -22,7 +23,7 @@ import DemoVideo from '~/components/DemoVideo.vue'
           </a>
         </div>
       </div>
-      <DemoVideo class="mt-14" />
+      <YoutubePlayer class="mt-14" />
       <div />
     </div>
   </div>

@@ -1,0 +1,21 @@
+// Vitest Snapshot v1
+
+exports[`HeroSection > mounts and is still the same 1`] = `
+"<div class=\\"flex items-center justify-center h-[80vh] mx-4 md:mt-0\\">
+  <div class=\\"flex flex-col\\">
+    <div class=\\"text-center\\">
+      <h1 class=\\"text-6xl md:text-8xl text-SideBase-green font-bold\\"> sidebase </h1>
+      <h2 class=\\"text-2xl text-gray-400 font-CooperHewitt font-light\\"> sidebase is a modern, best-practice, batteries-included <br> fullstack-app starter based on <a href=\\"https://v3.nuxtjs.org/\\" target=\\"_blank\\" class=\\"text-SideBase-green underline\\">Nuxt3</a> and <a href=\\"https://www.typescriptlang.org/\\" target=\\"_blank\\" class=\\"text-SideBase-green underline\\">TypeScript.</a></h2>
+      <div class=\\"flex items-center gap-3 w-full justify-center mt-8\\"><a href=\\"https://github.com/sidestream-tech/sidebase\\" target=\\"_blank\\"><button class=\\"p-button p-component p-button-outlined\\" type=\\"button\\">
+            <!----><span class=\\"pi pi-star p-button-icon p-button-icon-left\\"></span><span class=\\"p-button-label\\">Star on Github</span>
+            <!---->
+          </button></a><a class=\\"hidden md:block\\" href=\\"https://github.com/sidestream-tech/sidebase/generate\\" target=\\"_blank\\"><button class=\\"p-button p-component\\" type=\\"button\\">
+            <!----><span class=\\"pi pi-flag p-button-icon p-button-icon-left\\"></span><span class=\\"p-button-label\\">Use starter template</span>
+            <!---->
+          </button></a></div>
+    </div>
+    <div class=\\"lg:w-[800px] aspect-video bg-SideBase-green rounded-xl overflow-hidden mx-auto mt-14\\"><iframe class=\\"h-full w-full aspect-video\\" src=\\"https://www.youtube.com/embed/Wu9LQ7L5BcU\\" title=\\"YouTube video player\\" frameborder=\\"0\\" allow=\\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\\" allowfullscreen=\\"\\"></iframe></div>
+    <div></div>
+  </div>
+</div>"
+`;

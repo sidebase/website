@@ -63,9 +63,9 @@ export default defineConfig({
     environment: 'jsdom',
     coverage: {
       enabled: true,
-      lines: 90,
-      functions: 90,
-      branches: 90,
+      lines: 80,
+      functions: 80,
+      branches: 80,
       // We want to catch all js/ts/... files, not only the ones imported in some tests
       // see https://github.com/bcoe/c8#checking-for-full-source-coverage-using---all
       all: true,
