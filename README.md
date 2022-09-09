@@ -10,11 +10,11 @@ This is the website of `sidebase`, a modern, best-practice, batteries-included f
 
 1. Clone the repository
     ```sh
-    git clone https://github.com/sidestream-tech/sidebase my-app
+    git clone https://github.com/sidestream-tech/sidebase-website
     ```
 2. Go into the `app/` directory
     ```sh
-    cd my-app/app
+    cd app/
     ```
 3. Install the dependencies
     ```sh
@@ -28,12 +28,19 @@ This is the website of `sidebase`, a modern, best-practice, batteries-included f
 ## Commands and Further Documentation
 
 You can also:
-- `npm run story` for isolated component development using `histoire` (see [`ShowCase.story.vue`](./app/components/example/ShowCase.story.vue) as example)
-- `npm run test` for testing (see [`ShowCase.test.ts`](./app/components/example/ShowCase.test.ts) as example)
+- `npm run story` for isolated component development using `histoire`
+- `npm run test` for testing
     - `npm run test -- -u` to update the component snapshots
     - `npm run test -- -t "test describe text"` to run a specific test
     - `npm run test:ui` to start the [vitest UI](https://vitest.dev/guide/ui.html)
 - `npm run lint` for linting using `eslint`
 - `npm run build` for bundling using `vite`
 
-Have a look at the more detailed [readme of the fullstack app](./app/README.md) to see a broader, more in-depth explanation and documentation of commands.
+### Deployment
+[sidebase.io](https://sidebase.io) is hosted with GitHub Pages.
+GitHub automatically deploys the contents of the `/docs` folder.
+In order to force a redeployment run
+```sh
+npm run generate
+```
+in the `/app` folder. Once this is completed be sure to push the changes made to the `docs` folder.
