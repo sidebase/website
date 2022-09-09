@@ -12,11 +12,11 @@
       </p>
     </div>
     <div class="flex flex-col md:flex-row items-center gap-3 w-full justify-center mt-8">
-      <a href="https://sidebase.io" target="_blank">
+      <a href="mailto:sidebase@sidestream.tech" target="_blank">
         <Button label="Send us a message" class="p-button-outlined" icon="pi pi-envelope" icon-pos="left" />
       </a>
-      <a href="https://sidebase.io" target="_blank">
-        <Button label="See our website" icon="pi pi-github" icon-pos="left" />
+      <a href="https://github.com/sidestream-tech/sidebase/issues/new/choose" target="_blank">
+        <Button label="Open an issue" icon="pi pi-github" icon-pos="left" />
       </a>
     </div>
   </div>
