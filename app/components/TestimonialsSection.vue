@@ -1,3 +1,8 @@
+<script lang="ts" setup>
+import Galleria from 'primevue/galleria'
+import Chip from 'primevue/chip'
+</script>
+
 <script lang="ts">
 import { defineComponent } from 'vue'
 import testimonials from '~/data/testimonials'

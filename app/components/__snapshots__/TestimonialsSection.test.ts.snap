@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`TestimonialsSection > mounts and is still the same 1`] = `
+"<div class=\\"my-20 mx-4\\" data-v-3e742c78=\\"\\">
+  <h1 class=\\"text-4xl text-center text-gray-200\\" data-v-3e742c78=\\"\\"><i class=\\"pi pi-comments text-green-400\\" style=\\"font-size: 1.7rem;\\" data-v-3e742c78=\\"\\"></i> What others think <i class=\\"pi pi-comments text-green-400\\" style=\\"font-size: 1.7rem;\\" data-v-3e742c78=\\"\\"></i></h1>
+  <div class=\\"container mx-auto mt-5\\" data-v-3e742c78=\\"\\">
+    <!--teleport start-->
+    <!--teleport end-->
+    <div class=\\"grid grid-cols-5 place-content-center justify-items-center max-w-4xl mx-auto space-y-2\\" data-v-3e742c78=\\"\\">
+      <div data-v-3e742c78=\\"\\"><img class=\\"h-[125px] w-[125px] rounded-full\\" src=\\"https://avatars.githubusercontent.com/u/904724?v=4\\" alt=\\"Atinux\\" style=\\"cursor: pointer;\\" data-v-3e742c78=\\"\\"></div>
+    </div>
+  </div>
+</div>"
+`;

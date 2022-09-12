@@ -62,7 +62,7 @@ export default defineConfig({
     threads: false,
     environment: 'jsdom',
     coverage: {
-      enabled: true,
+      enabled: false,
       lines: 90,
       functions: 90,
       branches: 90,

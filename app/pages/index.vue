@@ -1,42 +1,14 @@
 <script setup lang="ts">
-import Navbar from '~/components/Navbar.vue'
+import { useHead } from '#head'
+import { metaData } from '~/data/metadata'
+import Navbar from '~/components/layout/Navbar.vue'
 import HeroSection from '~/components/HeroSection.vue'
 import FeatureSection from '~/components/FeatureSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
-import Footer from '~/components/Footer.vue'
-import { useHead } from '#head'
-import Banner from '~/components/Banner.vue'
+import Footer from '~/components/layout/Footer.vue'
+import Banner from '~/components/layout/Banner.vue'
 
-const SITE_TITLE = 'sidebase ▸ by SIDESTREAM'
-const PREVIEW_IMAGE = '/Social_Preview.jpeg'
-const SITE_DESCRIPTION = 'sidebase is a modern, best-practice, batteries-included fullstack-app starter based on Nuxt3 and TypeScript.'
-const TWITTER_HANDLE = '@sidebase_io'
-
-useHead({
-  title: SITE_TITLE,
-  viewport: 'width=device-width, initial-scale=1',
-  charset: 'utf-8',
-  meta: [
-    { name: 'description', content: SITE_DESCRIPTION },
-    { property: 'og:title', content: SITE_TITLE },
-    { property: 'og:type', content: 'website' },
-    { property: 'og:description', content: SITE_DESCRIPTION },
-    { property: 'og:image', content: PREVIEW_IMAGE },
-    { name: 'theme-color', content: '#5bf3c7' },
-    { name: 'twitter:card', content: 'app' },
-    { name: 'twitter:site', content: TWITTER_HANDLE },
-    { name: 'twitter:title', content: SITE_TITLE },
-    { name: 'twitter:description', content: SITE_DESCRIPTION },
-    { name: 'twitter:image', content: PREVIEW_IMAGE },
-  ],
-  script: [
-    {
-      'src': 'https://plausible.io/js/plausible.js',
-      'data-domain': 'sidebase.io',
-      'defer': true,
-    },
-  ],
-})
+useHead(metaData)
 </script>
 
 <template>

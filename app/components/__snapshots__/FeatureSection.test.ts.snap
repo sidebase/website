@@ -1,0 +1,33 @@
+// Vitest Snapshot v1
+
+exports[`FeatureSection > mounts and is still the same 1`] = `
+"<div class=\\"w-full my-28 px-6\\">
+  <h1 class=\\"text-4xl text-center text-gray-200\\"><i class=\\"pi pi-bolt text-yellow-300\\" style=\\"font-size: 1.7rem;\\"></i> Features <i class=\\"pi pi-bolt text-yellow-300\\" style=\\"font-size: 1.7rem;\\"></i></h1>
+  <div class=\\"max-w-6xl mx-auto grid lg:grid-cols-3 gap-8 mt-14\\">
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-database pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Full stack</h1>
+      <p class=\\"text-gray-300\\">Develop frontend and backend in a single TypeScript code base with the newest technologies!</p>
+    </div>
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-bolt pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Fast to code</h1>
+      <p class=\\"text-gray-300\\">Database, example tests, example components and example pages are all there for you to fill out allowing for quick starts!</p>
+    </div>
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-ban pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Fewer bugs</h1>
+      <p class=\\"text-gray-300\\">Strong data-validation using zod to validate all transferred data, fully typed API-routes, strict DB models via TypeORM.</p>
+    </div>
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-heart pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Easy to use</h1>
+      <p class=\\"text-gray-300\\">We use modern technology to ensure fast build times and a superb developer experience!</p>
+    </div>
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-cloud-upload pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Ready for launch</h1>
+      <p class=\\"text-gray-300\\">Github Actions CI, Dockerfile, easy switch to most popular SQL-databases are all there, out of the box.</p>
+    </div>
+    <div class=\\"flex flex-col space-y-3 text-center\\"><i class=\\"pi-comments pi text-SideBase-green\\" style=\\"font-size: 3rem;\\"></i>
+      <h1 class=\\"text-3xl text-SideBase-green font-bold\\">Community support</h1>
+      <p class=\\"text-gray-300\\">Post any question or feature requests in our GitHub and we will do our best to support you.</p>
+    </div>
+  </div>
+</div>"
+`;

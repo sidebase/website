@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import Button from 'primevue/button'
+</script>
+
 <template>
   <div class="w-full bg-gray-800 py-12 px-4">
     <h1 class="text-4xl text-center text-gray-200">
