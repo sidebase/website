@@ -7,9 +7,13 @@
     "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
     "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
   },
-  "node_modules/primeicons/fonts/primeicons.eot": {
-    "file": "_nuxt/primeicons.c9eaf535.eot",
-    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf": {
+    "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
+  },
+  "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf": {
+    "file": "_nuxt/CooperHewitt-Medium.e32bf29a.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf"
   },
   "assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf": {
     "file": "_nuxt/CooperHewitt-Bold.b1bb7177.otf",
