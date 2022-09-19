@@ -1,10 +1,10 @@
 <script lang="ts" setup>
 import Button from 'primevue/button'
-import YoutubePlayer from './YoutubePlayer.vue'
+import TestimonialsSection from '~/components/TestimonialsSection.vue'
 </script>
 
 <template>
-  <div class="flex items-center justify-center h-[80vh] mx-4 md:mt-0">
+  <div class="flex items-center justify-center h-[70vh] mx-4 md:mt-0">
     <div class="flex flex-col">
       <div class="text-center">
         <h1 class="text-6xl md:text-8xl text-SideBase-green font-bold">
@@ -23,7 +23,7 @@ import YoutubePlayer from './YoutubePlayer.vue'
           </a>
         </div>
       </div>
-      <YoutubePlayer class="mt-14" />
+      <TestimonialsSection class="mt-20" />
       <div />
     </div>
   </div>

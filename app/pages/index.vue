@@ -7,19 +7,21 @@ import FeatureSection from '~/components/FeatureSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/layout/Footer.vue'
 import Banner from '~/components/layout/Banner.vue'
-import TestimonialsSection from '~/components/TestimonialsSection.vue'
+import YoutubePlayer from '~/components/YoutubePlayer.vue'
 
 useHead(metaData)
 </script>
 
 <template>
   <div>
-    <Banner />
-    <Navbar />
-    <HeroSection />
+    <div class="min-h-[93vh]">
+      <Banner />
+      <Navbar />
+      <HeroSection />
+    </div>
     <div class="flex flex-col space-y-20 mt-20">
       <FeatureSection />
-      <TestimonialsSection />
+      <YoutubePlayer />
       <ContactSection />
     </div>
     <Footer />
