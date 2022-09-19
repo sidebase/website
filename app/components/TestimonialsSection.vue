@@ -1,70 +1,38 @@
 <script lang="ts" setup>
-import Galleria from 'primevue/galleria'
-import Chip from 'primevue/chip'
-</script>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
+import Carousel from 'primevue/carousel'
+import Avatar from 'primevue/avatar'
 import testimonials from '~/data/testimonials'
-
-export default defineComponent({
-  data() {
-    return {
-      activeIndex: 0,
-      displayCustom: false,
-      testimonials,
-    }
-  },
-  methods: {
-    imageClick(index: number) {
-      this.activeIndex = index
-      this.displayCustom = true
-    },
-  },
-})
 </script>
 
 <template>
-  <div class="my-20 mx-4">
-    <h1 class="text-4xl text-center text-gray-200">
-      <i class="pi pi-comments text-green-400" style="font-size: 1.7rem" /> What others think <i class="pi pi-comments text-green-400" style="font-size: 1.7rem" />
+  <div class="mx-4 pb-20">
+    <h1 class="text-5xl text-center text-gray-200 font-CooperHewitt">
+      Testimonials
     </h1>
-    <div class="container mx-auto mt-5">
-      <Galleria
-        v-model:activeIndex="activeIndex" v-model:visible="displayCustom" :value="testimonials" :num-visible="7"
-        container-style="max-width: 850px" :circular="true" :full-screen="true" :show-item-navigators="true" :show-thumbnails="false"
-      >
+    <div class="max-w-6xl mx-auto mt-5">
+      <Carousel :value="testimonials" :num-visible="1" :num-scroll="1" :circular="true">
         <template #item="slotProps">
-          <div>
-            <img :src="slotProps.item.image" :alt="slotProps.item.name" style="width: 100%; display: block; max-height: 900px">
-            <div class="my-3 w-full flex items-center justify-center">
-              <Chip :label="slotProps.item.name" :image="slotProps.item.avatar" class="custom-chip" />
+          <div class="w-full py-10">
+            <div class="text-center py-6 text-xl lg:text-2xl text-SideBase-green">
+              "{{ slotProps.data.text }}"
+            </div>
+            <div class="flex items-center space-x-3 mx-auto w-max">
+              <Avatar :image="slotProps.data.avatar" size="large" shape="circle" />
+              <div>
+                <h1 class="font-bold text-lg">
+                  {{ slotProps.data.name }}
+                  <a v-if="slotProps.data.link" class="font-bold underline text-SideBase-green ml-0.5 pt-2" :href="slotProps.data.link" target="_blank">
+                    <i class="pi pi-twitter" style="font-size: 1.1rem" />
+                  </a>
+                </h1>
+                <p class="text-sm opacity-75">
+                  {{ slotProps.data.position }}
+                </p>
+              </div>
             </div>
           </div>
         </template>
-      </Galleria>
-
-      <div v-if="testimonials" class="grid grid-cols-5 place-content-center justify-items-center max-w-4xl mx-auto space-y-2">
-        <div
-          v-for="(testimonial, index) of testimonials"
-          :key="index"
-        >
-          <img
-            class="h-[125px] w-[125px] rounded-full"
-            :src="testimonial.avatar"
-            :alt="testimonial.name"
-            style="cursor: pointer"
-            @click="imageClick(index)"
-          >
-        </div>
-      </div>
+      </Carousel>
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.p-chip.custom-chip {
-  background: var(--primary-color);
-  color: var(--primary-color-text);
-}
-</style>

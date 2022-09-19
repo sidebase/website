@@ -19,5 +19,7 @@ interface Feature {
 interface Testimonial {
   avatar: string,
   name: string,
-  image: string,
+  text: string,
+  position?: string,
+  link?: string,
 }
