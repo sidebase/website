@@ -7,6 +7,7 @@ import FeatureSection from '~/components/FeatureSection.vue'
 import ContactSection from '~/components/ContactSection.vue'
 import Footer from '~/components/layout/Footer.vue'
 import Banner from '~/components/layout/Banner.vue'
+import TestimonialsSection from '~/components/TestimonialsSection.vue'
 
 useHead(metaData)
 </script>
@@ -18,6 +19,7 @@ useHead(metaData)
     <HeroSection />
     <div class="flex flex-col space-y-20 mt-20">
       <FeatureSection />
+      <TestimonialsSection />
       <ContactSection />
     </div>
     <Footer />
