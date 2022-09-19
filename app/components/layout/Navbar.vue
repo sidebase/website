@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import Button from 'primevue/button'
 import Logo from '~/assets/branding/Sidebase_logo_dark_icon_font_for_dark_bg.svg'
 </script>
 
