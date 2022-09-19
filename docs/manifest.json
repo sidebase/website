@@ -3,21 +3,29 @@
     "file": "_nuxt/color.473bc8ca.png",
     "src": "node_modules/primevue/resources/images/color.png"
   },
-  "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf": {
-    "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
-    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
-  },
-  "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf": {
-    "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
-    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
-  },
   "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf": {
     "file": "_nuxt/CooperHewitt-Medium.e32bf29a.otf",
     "src": "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf"
   },
+  "node_modules/primeicons/fonts/primeicons.eot": {
+    "file": "_nuxt/primeicons.c9eaf535.eot",
+    "src": "node_modules/primeicons/fonts/primeicons.eot"
+  },
   "assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf": {
     "file": "_nuxt/CooperHewitt-Bold.b1bb7177.otf",
     "src": "assets/fonts/cooper-hewitt/CooperHewitt-Bold.otf"
+  },
+  "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf": {
+    "file": "_nuxt/CooperHewitt-Light.526bdb62.otf",
+    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Light.otf"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2": {
+    "file": "_nuxt/Inter-Regular.d612f121.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2": {
+    "file": "_nuxt/Inter-Bold.c63158ba.woff2",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2"
   },
   "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff2": {
     "file": "_nuxt/Inter-SemiBold.15226129.woff2",
@@ -31,29 +39,9 @@
     "file": "_nuxt/Inter-Light.36b86832.woff2",
     "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff2"
   },
-  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2": {
-    "file": "_nuxt/Inter-Bold.c63158ba.woff2",
-    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff2"
-  },
-  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2": {
-    "file": "_nuxt/Inter-Regular.d612f121.woff2",
-    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff2"
-  },
-  "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf": {
-    "file": "_nuxt/CooperHewitt-Medium.e32bf29a.otf",
-    "src": "assets/fonts/cooper-hewitt/CooperHewitt-Medium.otf"
-  },
   "node_modules/primeicons/fonts/primeicons.ttf": {
     "file": "_nuxt/primeicons.788dba0a.ttf",
     "src": "node_modules/primeicons/fonts/primeicons.ttf"
-  },
-  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff": {
-    "file": "_nuxt/Inter-Medium.53deda46.woff",
-    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff"
-  },
-  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff": {
-    "file": "_nuxt/Inter-Light.4871aed0.woff",
-    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff"
   },
   "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-SemiBold.woff": {
     "file": "_nuxt/Inter-SemiBold.653fed7a.woff",
@@ -63,9 +51,17 @@
     "file": "_nuxt/Inter-Bold.3e242080.woff",
     "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Bold.woff"
   },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff": {
+    "file": "_nuxt/Inter-Medium.53deda46.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Medium.woff"
+  },
   "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff": {
     "file": "_nuxt/Inter-Regular.ef1f23c0.woff",
     "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Regular.woff"
+  },
+  "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff": {
+    "file": "_nuxt/Inter-Light.4871aed0.woff",
+    "src": "node_modules/primevue/resources/themes/lara-light-teal/fonts/Inter-Light.woff"
   },
   "node_modules/primeicons/fonts/primeicons.woff": {
     "file": "_nuxt/primeicons.feb68bf6.woff",
