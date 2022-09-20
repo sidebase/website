@@ -22,7 +22,7 @@ import SidebaseLogoDark from '~/assets/sidebase_logo_dark_just_icon_for_dark_bg.
           <a href="https://twitter.com/sidebase_io" target="_blank" class="mr-4 hover:underline md:mr-6 ">Twitter</a>
         </li>
         <li>
-          <a href="https://www.sidestream.tech/" target="_blank" class="mr-4 hover:underline md:mr-6">SideStream</a>
+          <a href="https://www.sidestream.tech/" target="_blank" class="mr-4 hover:underline md:mr-6">Sidestream</a>
         </li>
         <li>
           <a href="https://join.com/companies/sidestream" target="_blank" class="mr-4 hover:underline md:mr-6">Jobs</a>
