@@ -43,14 +43,14 @@ export default defineComponent({
       <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
         <a href="https://github.com/sidestream-tech/sidebase/generate" target="_blank" class="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-lg text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
           <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:bg-transparent sm:bg-gray-800">
-            Create a new repo
+            Get started in 2 clicks
             <i class="fa fa-arrow-right mx-1" />
           </span>
         </a>
         <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="group from-sidebase-green-800 relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br to-pink-500 p-0.5 text-lg text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
           <span class="px-5 py-2.5">
             <i class="fa fa-star mx-1" />
-            Leave use a star
+            Leave us a star
           </span>
         </a>
       </div>

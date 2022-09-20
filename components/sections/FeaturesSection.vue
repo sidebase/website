@@ -11,7 +11,7 @@ import Feature from '~/components/sections/Feature.vue'
     <h1 class="text-center text-5xl font-bold text-gray-300">
       What makes it <span class="AnimatedText">AMAZING</span>?
     </h1>
-    <div class="relative">
+    <div class="relative mt-4">
       <div class="absolute left-1/2 mx-auto hidden h-full w-0.5 rounded-full bg-gray-700 lg:block" />
       <div class="absolute bottom-0 hidden w-full lg:block">
         <div class="mx-auto h-0.5 w-[100px] rounded-full bg-gray-700" />
@@ -29,6 +29,7 @@ import Feature from '~/components/sections/Feature.vue'
         <div />
         <div />
         <Feature :feature="features[5]" direction="left" />
+        <Feature :feature="features[6]" direction="right" />
       </div>
     </div>
   </section>

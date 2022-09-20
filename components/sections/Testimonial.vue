@@ -24,10 +24,18 @@ defineProps({
         <div>
           <h1 class="text-lg text-gray-100">
             {{ testimonial.name }}
+            <span v-if="testimonial.position" class="text-sm text-gray-400">
+              {{ testimonial.position }}
+            </span>
           </h1>
-          <h2 v-if="testimonial.position" class="text-sm text-gray-400">
-            {{ testimonial.position }}
-          </h2>
+          <div class="mt-1 flex items-center space-x-2">
+            <a v-if="testimonial.githubLink" :href="testimonial.githubLink" target="_blank">
+              <i class="fa-brands fa-github" />
+            </a>
+            <a v-if="testimonial.twitterLink" :href="testimonial.twitterLink" target="_blank">
+              <i class="fa-brands fa-twitter" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
