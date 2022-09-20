@@ -22,6 +22,11 @@ const features: Feature[] = [
     description: 'We use modern technology to ensure fast build times and a superb developer experience!',
   },
   {
+    icon: 'fa-arrow-up',
+    title: 'Always up to date',
+    description: 'We monitor all of our packages to ensure we provide you with the latest tooling and security updates.',
+  },
+  {
     icon: 'fa-cloud-arrow-up',
     title: 'Deployed at lightspeed',
     description: 'Github Actions CI, Dockerfile, easy switch to most popular SQL-databases are all there, out of the box.',

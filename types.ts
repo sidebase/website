@@ -2,7 +2,8 @@ export interface Testimonial {
   name: string
   avatar: string
   text: string
-  link?: string
+  githubLink?: string
+  twitterLink?: string
   position?: string
 }
 

@@ -13,6 +13,9 @@ import Testimonial from '~/components/sections/Testimonial.vue'
         <Testimonial
           :testimonial="testimonials[3]"
         />
+        <Testimonial
+          :testimonial="testimonials[6]"
+        />
       </div>
       <div>
         <Testimonial
@@ -21,6 +24,9 @@ import Testimonial from '~/components/sections/Testimonial.vue'
         <Testimonial
           :testimonial="testimonials[4]"
         />
+        <Testimonial
+          :testimonial="testimonials[7]"
+        />
       </div>
       <div>
         <Testimonial
@@ -28,6 +34,9 @@ import Testimonial from '~/components/sections/Testimonial.vue'
         />
         <Testimonial
           :testimonial="testimonials[5]"
+        />
+        <Testimonial
+          :testimonial="testimonials[8]"
         />
       </div>
     </div>
