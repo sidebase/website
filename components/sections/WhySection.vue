@@ -43,10 +43,11 @@
               How did you choose the technologies included in sidebase?
             </h3>
             <p class="TextBox text-gray-400">
-              When Nuxt3 began releasing their RCs, we at <a href="https://www.sidestream.tech/" target="_blank">SIDESTREAM</a> began working on an internal starter, we could use for our enterprise software solutions.
-              After having used our internal starter in multiple products, we began thinking about releasing a public version, to help others jump into Nuxt3!
-              Through our extensive experience with Nuxt, we collected a large library of packages and tooling, that we found helped speed up our work and improved our developer experience.
-              <br>If any packages are missing or you have any ideas, feel free to open a <a href="https://github.com/sidestream-tech/sidebase/discussions" target="_blank">discussion</a> in our GitHub!
+              When Nuxt3 began releasing their RCs, we at <a href="https://www.sidestream.tech/" target="_blank">SIDESTREAM</a> began working on an internal starter we could use for our enterprise software solutions.
+              After having used our internal starter in multiple products, we began thinking about releasing a public version to help others jump into Nuxt3!
+              Through our extensive experience with Nuxt, we collected a large library of packages and tooling, that has helped speed up our work and improved our developer experience.
+              <br>
+              If any packages are missing or if you have any ideas, feel free to open a <a href="https://github.com/sidestream-tech/sidebase/discussions" target="_blank">discussion</a> in our GitHub!
             </p>
           </div>
         </div>
@@ -57,9 +58,9 @@
               What makes sidebase different from other starters?
             </h3>
             <p class="text-gray-400">
-              sidebase bootstraps a nuxt 3 project that permits developing a backend and a frontend using just Nuxt 3 with overarching TypeScript support.
+              sidebase bootstraps a Nuxt3 project that permits developing a backend and a frontend using just Nuxt3 with overarching TypeScript support.
               We want to show the world how enjoyable end-to-end typescript programming can be, displacing the myth that JS/TS-backends are no good.
-              This starter solves a lot fo the "real-world" problems that occur after you start using Nuxt or any other framework:
+              This starter solves a lot of the "real-world" problems that occur after you start using Nuxt or any other framework:
             </p>
             <ul class="list-inside list-disc text-gray-400">
               <li>How to write backend tests?</li>
@@ -69,7 +70,7 @@
               <li>How to build a docker image?</li>
             </ul>
             <p class="text-gray-400">
-              By answering all these questions, we provide a starter, that lets you skip the setup and jump to the coding, drastically increasing development time.
+              By answering all these questions, we provide a starter, that lets you skip the setup and jump to the coding drastically increasing development time.
             </p>
           </div>
           <div class="mb-10">
@@ -78,7 +79,7 @@
               What drove you to creating sidebase?
             </h3>
             <p class="TextBox text-gray-400">
-              While working on our internal starter for Nuxt3, we noticed how hard it was to make a full-stack starter, that meet all of your advanced requirements.
+              While working on our internal starter for Nuxt3, we noticed how hard it was to make a full-stack starter that meets all of your advanced requirements.
               The switch between Nuxt2 and Nuxt3 allowed us to try alternatives to the status quo such as using <a href="https://histoire.dev/" target="_blank">histoire</a> for vite powered component testing.<br>
               Nuxt3 was also the first time we moved to a full-stack typescript setup, rather then using typescript in the frontend and another language for the backend.
               After finishing our first products we noticed how amazing full-stack typescript has become.
