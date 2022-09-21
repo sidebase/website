@@ -6,9 +6,9 @@
           Why should I use <span class="GradientText">sidebase</span>?
         </h2>
         <p class="text-lg text-gray-400">
-          sidebase is a production ready Nuxt3 starter template. Our primary goal when developing sidebase was to create a full-stack solution for any
-          web application. As developers we know how valuable a good developer experience is. That is why we focused on incorporating modern tools, that we
-          love using!
+          sidebase is a production ready Nuxt3 starter template.
+          Our primary goal when developing sidebase was to create a full-stack solution for any web application.
+          As developers we know how valuable a good developer experience is, which is why we focused on incorporating modern tools that we love to use!
         </p>
       </div>
       <div class="grid border-t border-gray-700 pt-8 text-left md:grid-cols-2 md:gap-16">
