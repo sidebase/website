@@ -14,7 +14,7 @@ defineProps({
 </script>
 
 <template>
-  <div :class="direction === 'left' ? 'lg:border-l-8' : 'lg:border-r-8'" class="my-4 w-full rounded-lg border-yellow-600 bg-gray-800 px-5 py-8 lg:my-0">
+  <div :data-aos="direction === 'left' ? 'fade-left' : 'fade-right'" :class="direction === 'left' ? 'lg:border-l-8' : 'lg:border-r-8'" class="my-4 w-full rounded-lg border-yellow-600 bg-gray-800 px-5 py-8 lg:my-0">
     <h1 class="text-2xl font-bold text-gray-300">
       <i class="fa mr-1" :class="feature.icon" />
       {{ feature.title }}
