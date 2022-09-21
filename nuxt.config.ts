@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   alias: {
     dayjs: 'dayjs/esm/',
   },
-  css: ['/assets/style.css', '@fortawesome/fontawesome-free/css/all.min.css'],
+  css: ['/assets/style.css', '@fortawesome/fontawesome-free/css/all.min.css', 'aos/dist/aos.css'],
   typescript: {
     // We enable `Volar Takeover Mode`, so we can disable the shim `*.vue` generation
     // see https://v3.nuxtjs.org/getting-started/introduction#prerequisites

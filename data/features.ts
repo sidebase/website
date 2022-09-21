@@ -3,7 +3,7 @@ import type { Feature } from '~/types'
 const features: Feature[] = [
   {
     icon: 'fa-database',
-    title: 'More then just a "full-stack"',
+    title: 'More than just a "full-stack"',
     description: 'Develop frontend and backend in a single TypeScript code base with the newest technologies!',
   },
   {

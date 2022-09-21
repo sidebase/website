@@ -5,7 +5,7 @@ import Feature from '~/components/sections/Feature.vue'
 
 <template>
   <section class="px-4">
-    <h1 class="text-center text-3xl font-bold text-gray-300">
+    <h1 class="mb-0 text-center text-3xl font-bold text-gray-300">
       But...
     </h1>
     <h1 class="text-center text-5xl font-bold text-gray-300">
