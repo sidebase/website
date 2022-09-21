@@ -18,17 +18,17 @@
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm install
-              <span class="text-gray-500 ml-4"># Install dependencies</span>
+              <span class="text-gray-500 ml-4 select-none"># Install dependencies</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run dev
-              <span class="text-gray-500 ml-4"># Start the fullstack app, including database</span>
+              <span class="text-gray-500 ml-4 select-none"># Start the fullstack app, including database</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run story
-              <span class="text-gray-500 ml-4">#  Start histoire for component story based development of UI</span>
+              <span class="text-gray-500 ml-4 select-none">#  Start histoire for component story based development of UI</span>
             </div>
           </div>
         </div>
@@ -40,22 +40,22 @@
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run lint
-              <span class="text-gray-500 ml-4"># Run Eslint</span>
+              <span class="text-gray-500 ml-4 select-none"># Run Eslint</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run lint:style
-              <span class="text-gray-500 ml-4"># Eslint for formatting & linting</span>
+              <span class="text-gray-500 ml-4 select-none"># Eslint for formatting & linting</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run lint:style -- --fix
-              <span class="text-gray-500 ml-4">#  Autofix styles and lints where possible</span>
+              <span class="text-gray-500 ml-4 select-none">#  Autofix styles and lints where possible</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run lint:types
-              <span class="text-gray-500 ml-4">#  typescript typechecking</span>
+              <span class="text-gray-500 ml-4 select-none">#  typescript typechecking</span>
             </div>
           </div>
         </div>
@@ -67,27 +67,27 @@
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run test
-              <span class="text-gray-500 ml-4"># Run tests once, report results and coverage </span>
+              <span class="text-gray-500 ml-4 select-none"># Run tests once, report results and coverage </span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run test:watch
-              <span class="text-gray-500 ml-4"># Run tests and watch file changes, run tests for changed files</span>
+              <span class="text-gray-500 ml-4 select-none"># Run tests and watch file changes, run tests for changed files</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run test -- -u
-              <span class="text-gray-500 ml-4">#  Update component snapshots after components changed</span>
+              <span class="text-gray-500 ml-4 select-none">#  Update component snapshots after components changed</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run test -- -t "some test-text"
-              <span class="text-gray-500 ml-4">#  Run all tests with some test-text in their test(...) description</span>
+              <span class="text-gray-500 ml-4 select-none">#  Run all tests with some test-text in their test(...) description</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run test:ui
-              <span class="text-gray-500 ml-4">#  Run the vitest testing web UI for easier test interaction</span>
+              <span class="text-gray-500 ml-4 select-none">#  Run the vitest testing web UI for easier test interaction</span>
             </div>
           </div>
         </div>
@@ -99,12 +99,12 @@
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run build
-              <span class="text-gray-500 ml-4"># Build the app for production</span>
+              <span class="text-gray-500 ml-4 select-none"># Build the app for production</span>
             </div>
             <div class="flex items-center py-1">
               <i class="fa fa-angle-right mr-2 text-red-400" />
               npm run start
-              <span class="text-gray-500 ml-4"># Start the app in production (requires npm run build beforehand)</span>
+              <span class="text-gray-500 ml-4 select-none"># Start the app in production (requires npm run build beforehand)</span>
             </div>
           </div>
         </div>
