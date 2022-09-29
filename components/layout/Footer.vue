@@ -13,7 +13,7 @@ import SidebaseLogoDark from '~/assets/sidebase_logo_dark_just_icon_for_dark_bg.
       </p>
       <ul class="mb-6 flex flex-wrap items-center justify-center">
         <li>
-          <a href="https://www.sidestream.tech/impressum" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Imprint</a>
+          <a href="https://www.sidestream.tech/en/imprint" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Imprint</a>
         </li>
         <li>
           <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Github</a>
@@ -22,10 +22,13 @@ import SidebaseLogoDark from '~/assets/sidebase_logo_dark_just_icon_for_dark_bg.
           <a href="https://twitter.com/sidebase_io" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Twitter</a>
         </li>
         <li>
-          <a href="https://www.sidestream.tech/" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Sidestream</a>
+          <a href="https://discord.gg/VzABbVsqAc" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Discord</a>
         </li>
         <li>
-          <a href="https://join.com/companies/sidestream" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Jobs</a>
+          <a href="https://www.sidestream.tech/en/home" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Sidestream</a>
+        </li>
+        <li>
+          <a href="https://sidestream.jobs.personio.de/" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Jobs</a>
         </li>
         <li>
           <a href="https://www.sidestream.tech/en/contact" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Contact</a>
@@ -33,7 +36,7 @@ import SidebaseLogoDark from '~/assets/sidebase_logo_dark_just_icon_for_dark_bg.
       </ul>
       <span class="hover:text-sidebase-green text-sm text-gray-400 sm:text-center">
         Developed 2022 by
-        <a href="https://www.sidestream.tech/" target="_blank" class="hover:text-sidebase-green text-gray-400 underline">SIDESTREAM</a>.
+        <a href="https://www.sidestream.tech/en/home" target="_blank" class="hover:text-sidebase-green text-gray-400 underline">SIDESTREAM</a>.
       </span>
     </div>
   </footer>

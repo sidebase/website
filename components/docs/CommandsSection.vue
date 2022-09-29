@@ -2,9 +2,6 @@
   <section>
     <div class="mx-auto max-w-screen-xl px-4 lg:px-6 sm:py-6">
       <a id="commands" href="#commands" class="group relative">
-        <div class="absolute top-[25px] left-[-30px] hidden group-hover:block">
-          <i class="fa fa-link text-sidebase-green-700 text-xl" />
-        </div>
         <h1 class="text-4xl font-extrabold text-white">
           Commands
         </h1>
