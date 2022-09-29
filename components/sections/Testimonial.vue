@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="transition-all hover:scale-105">
+  <div data-aos="fade-up" class="transition-all hover:scale-105">
     <div class="group relative my-4 overflow-hidden rounded bg-gradient-to-br from-green-500 to-pink-500 p-0.5 transition-all hover:scale-105">
       <div class="w-full bg-gray-800 p-5 text-white">
         <p class="text-sidebase-green-400 py-3">
@@ -25,7 +25,7 @@ defineProps({
           <div>
             <h1 class="text-lg text-gray-100">
               {{ testimonial.name }}
-              <span v-if="testimonial.position" class="text-sm text-gray-400">
+              <span v-if="testimonial.position" class="text-xs text-gray-400">
                 {{ testimonial.position }}
               </span>
             </h1>

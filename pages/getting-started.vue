@@ -15,7 +15,7 @@ useHead(metaData)
   <div class="WallpaperLight h-full w-full">
     <Navbar />
     <Banner />
-    <GettingStartedSection class="sm:pt-10" />
+    <GettingStartedSection />
     <CommandsSection />
     <ContactSection />
     <Footer />

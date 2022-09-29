@@ -16,7 +16,8 @@
 }
 
 html {
-    color-scheme: dark
+    color-scheme: dark;
+    scroll-behavior: smooth;
 }
 
 .WallpaperShiny {
