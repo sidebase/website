@@ -35,9 +35,9 @@ useHead(metaData)
         </section>
       </div>
       <GettingStartedSection />
+      <TestimonialsSection />
       <StatsSection />
       <VideoSection />
-      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>

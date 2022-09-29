@@ -9,6 +9,5 @@ export interface Testimonial {
 
 export interface Feature {
   icon: string
-  title: string
   description: string
 }

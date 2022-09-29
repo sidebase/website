@@ -2,63 +2,51 @@ import type { Feature } from '~/types'
 
 const features: Feature[] = [
   {
-    icon: 'fa-database',
-    title: 'A stable frontend',
+    icon: 'fa-object-ungroup',
     description: 'Nuxt3 with Vue3 as the frontend',
   },
   {
-    icon: 'fa-truck-fast',
-    title: 'Advanced backend features',
+    icon: 'fa-server',
     description: 'Data base models, migrations, queries and easy DB-switching via TypeORM',
   },
   {
-    icon: 'fa-bug',
-    title: 'Amazing typing tools',
+    icon: 'fa-wrench',
     description: 'Strong data-validation using zod to validate all transferred data, fully typed API-routes, strict DB models via TypeORM.',
   },
   {
-    icon: 'fa-heart',
-    title: 'Data synchronization',
+    icon: 'fa-rotate',
     description: 'Frontend- and Backend data-transformation via nuxt-sidebase-parse and zod',
   },
   {
-    icon: 'fa-arrow-up',
-    title: 'Built in database',
+    icon: 'fa-database',
     description: 'In-memory development SQL-database via sqlite3',
   },
   {
-    icon: 'fa-cloud-arrow-up',
-    title: 'Correct code formatting',
+    icon: 'fa-outdent',
     description: 'Linting through eslint',
   },
   {
-    icon: 'fa-comments',
-    title: 'Test your code',
+    icon: 'fa-spell-check',
     description: 'Code testing via vitest, test-library/vue and supertest',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
+    icon: 'fa-gauge',
     description: 'Code coverage via C8',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
+    icon: 'fa-book',
     description: 'Component stories via histoire',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
+    icon: 'fa-gear',
     description: 'CSS utiltities via TailwindCSS',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
+    icon: 'fa-pen-fancy',
     description: 'CSS components via Ant Design Vue',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
+    icon: 'fa-clipboard-check',
     description: 'Type checking in script and template via Volar / vue-tsc',
   },
 ]
