@@ -1,7 +1,7 @@
 <template>
   <section class="mt-14 hidden lg:block">
     <h2 class="mb-0 text-center text-3xl font-bold text-gray-300">
-      Only launched
+      And we only launched
     </h2>
     <h1 class="text-center text-5xl font-bold text-gray-300">
       3 weeks ago!
