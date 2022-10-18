@@ -1,11 +1,8 @@
 <template>
-  <section>
-    <div class="mx-auto max-w-screen-xl px-4 lg:px-6 sm:py-8">
+  <section id="getting-started">
+    <div class="mx-auto max-w-screen-xl px-4 lg:px-6 sm:pt-[90px]">
       <div class="mb-8">
-        <a id="getting-started" href="#getting-started" class="group relative">
-          <div class="absolute top-[25px] left-[-30px] hidden group-hover:block">
-            <i class="fa fa-link text-sidebase-green-700 text-xl" />
-          </div>
+        <a href="#getting-started" class="group relative">
           <h1 class="text-4xl font-extrabold text-white">
             Getting started with <span class="GradientText">sidebase</span>
           </h1>

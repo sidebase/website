@@ -2,39 +2,52 @@ import type { Feature } from '~/types'
 
 const features: Feature[] = [
   {
-    icon: 'fa-database',
-    title: 'More than just a "full-stack"',
-    description: 'Develop frontend and backend in a single TypeScript code base with the newest technologies!',
+    icon: 'fa-object-ungroup',
+    description: 'Nuxt3 with Vue3 as the frontend',
   },
   {
-    icon: 'fa-truck-fast',
-    title: 'Fast to code',
-    description: 'Database, example tests, example components and example pages are all there for you to fill out allowing for quick starts!',
+    icon: 'fa-server',
+    description: 'Data base models, migrations, queries and easy DB-switching via TypeORM',
   },
   {
-    icon: 'fa-bug',
-    title: 'Goodbye pesky bugs',
+    icon: 'fa-wrench',
     description: 'Strong data-validation using zod to validate all transferred data, fully typed API-routes, strict DB models via TypeORM.',
   },
   {
-    icon: 'fa-heart',
-    title: 'Made by devs for devs',
-    description: 'We use modern technology to ensure fast build times and a superb developer experience!',
+    icon: 'fa-rotate',
+    description: 'Frontend- and Backend data-transformation via nuxt-sidebase-parse and zod',
   },
   {
-    icon: 'fa-arrow-up',
-    title: 'Always up to date',
-    description: 'We monitor all of our packages to ensure we provide you with the latest tooling and security updates.',
+    icon: 'fa-database',
+    description: 'In-memory development SQL-database via sqlite3',
   },
   {
-    icon: 'fa-cloud-arrow-up',
-    title: 'Deployed at lightspeed',
-    description: 'Github Actions CI, Dockerfile, easy switch to most popular SQL-databases are all there, out of the box.',
+    icon: 'fa-outdent',
+    description: 'Linting through eslint',
   },
   {
-    icon: 'fa-comments',
-    title: 'We got your back',
-    description: 'Post any question or feature requests in our GitHub and we will do our best to support you.',
+    icon: 'fa-spell-check',
+    description: 'Code testing via vitest, test-library/vue and supertest',
+  },
+  {
+    icon: 'fa-gauge',
+    description: 'Code coverage via C8',
+  },
+  {
+    icon: 'fa-book',
+    description: 'Component stories via histoire',
+  },
+  {
+    icon: 'fa-gear',
+    description: 'CSS utiltities via TailwindCSS',
+  },
+  {
+    icon: 'fa-pen-fancy',
+    description: 'CSS components via Ant Design Vue',
+  },
+  {
+    icon: 'fa-clipboard-check',
+    description: 'Type checking in script and template via Volar / vue-tsc',
   },
 ]
 

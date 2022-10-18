@@ -42,30 +42,24 @@ export default defineComponent({
         </a-popover>
       </div>
       <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-white md:text-5xl lg:text-6xl">
-        The <span class="GradientText">Nuxt3</span> starter for production!
+        The Nuxt3 starter for production!
       </h1>
       <p class="mb-8 text-lg font-normal text-gray-400 sm:px-16 lg:text-xl xl:px-48">
         sidebase is a modern, best-practice, batteries-included fullstack-app starter based on Nuxt3 and TypeScript.
       </p>
       <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-        <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
-          <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:bg-transparent sm:bg-gray-800">
+        <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="group from-sidebase-green-800 relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br to-pink-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
+          <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:sm:bg-gray-800">
             <i class="fa-brands fa-github mx-1" />
-            View on github
+            View on Github
           </span>
         </a>
-        <nuxt-link to="/why" class="group from-sidebase-green-800 relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br to-pink-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
-          <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:bg-transparent sm:bg-gray-800">
-            <i class="fa fa-heart mx-1" />
-            Why use sidebase?
-          </span>
-        </nuxt-link>
-        <nuxt-link to="/getting-started" class="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-800 to-green-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
-          <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:bg-transparent sm:bg-gray-800">
+        <a href="#getting-started" class="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-800 to-green-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
+          <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:sm:bg-gray-800">
             <i class="fa fa-rocket mx-1" />
             Getting started
           </span>
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </section>
