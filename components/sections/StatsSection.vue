@@ -10,7 +10,7 @@
       <dl class="mx-auto grid max-w-screen-md gap-8 text-white sm:grid-cols-3">
         <div data-aos="fade-up-right" class="flex flex-col items-center justify-center">
           <dt class="mb-2 text-3xl font-extrabold md:text-4xl">
-            234+
+            306+
           </dt>
           <dd class="font-light text-gray-400">
             stars

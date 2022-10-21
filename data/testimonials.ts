@@ -51,7 +51,7 @@ const testimonials: Testimonial[] = [
   {
     name: 'Fabian',
     position: 'Frontend Web Engineer',
-    avatar: 'https://pbs.twimg.com/profile_images/1488623932555108358/iv83K22X_400x400.jpg',
+    avatar: 'https://avatars.githubusercontent.com/u/32813692?v=4',
     text: 'Thank you so much for sharing! Trying to use nuxt 3 on a larger project currently, and struggling a lot in terms of project structure, best practices, which ecosystems & libs to use',
     githubLink: 'https://github.com/madebyfabian',
     twitterLink: 'https://twitter.com/madebyfabian/status/1566393943578787840',
