@@ -13,7 +13,7 @@
           <a href="mailto:sidebase@sidestream.tech" target="_blank" class="focus:ring-primary-900 inline-flex items-center justify-center rounded-lg bg-green-700 px-4 py-2.5 text-center text-base font-medium text-white hover:bg-green-800 hover:text-white focus:ring-4">
             Send us a message
           </a>
-          <a href="https://github.com/sidestream-tech/sidebase/issues/new/choose" target="_blank" class="inline-flex items-center justify-center rounded-lg border border-gray-600 px-4 py-2.5 text-center text-base font-medium text-white hover:bg-gray-700 hover:text-white focus:ring-gray-600">
+          <a href="https://github.com/sidebase/sidebase/issues/new/choose" target="_blank" class="inline-flex items-center justify-center rounded-lg border border-gray-600 px-4 py-2.5 text-center text-base font-medium text-white hover:bg-gray-700 hover:text-white focus:ring-gray-600">
             Open an issue
           </a>
         </div>

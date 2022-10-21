@@ -70,7 +70,7 @@
               <li>How to build a docker image?</li>
             </ul>
             <p class="text-gray-400">
-              By answering all these questions, we provide a starter, that lets you skip the setup and jump to the coding drastically increasing development time.
+              By answering all these questions, we provide a starter, that lets you skip the setup and jump to the coding drastically decreasing development time.
             </p>
           </div>
           <div class="mb-10">

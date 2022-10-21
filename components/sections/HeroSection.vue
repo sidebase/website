@@ -48,7 +48,7 @@ export default defineComponent({
         sidebase is a modern, best-practice, batteries-included fullstack-app starter based on Nuxt3 and TypeScript.
       </p>
       <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-        <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="group from-sidebase-green-800 relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br to-pink-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
+        <a href="https://github.com/sidebase/sidebase" target="_blank" class="group from-sidebase-green-800 relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br to-pink-500 p-0.5 text-lg text-white hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-800 group-hover:from-purple-500 group-hover:to-pink-500">
           <span class="relative rounded-md px-5 py-2.5 transition-all duration-200 ease-in group-hover:sm:bg-gray-800">
             <i class="fa-brands fa-github mx-1" />
             View on Github
