@@ -16,7 +16,7 @@ import SidebaseLogoDark from '~/assets/sidebase_logo_dark_just_icon_for_dark_bg.
           <a href="https://www.sidestream.tech/en/imprint" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Imprint</a>
         </li>
         <li>
-          <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Github</a>
+          <a href="https://github.com/sidebase/sidebase" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6">Github</a>
         </li>
         <li>
           <a href="https://twitter.com/sidebase_io" target="_blank" class="hover:text-sidebase-green mr-4 text-gray-400 hover:underline md:mr-6 ">Twitter</a>

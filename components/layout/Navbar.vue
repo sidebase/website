@@ -53,7 +53,7 @@ export default defineComponent({
           </li>
           <li class="border-pickled-bluewood-700 my-1 border-l-2" />
           <li class="flex flex-row items-center space-x-4 px-1 lg:px-0">
-            <a href="https://github.com/sidestream-tech/sidebase" target="_blank" class="text-lg text-gray-400 hover:text-white">
+            <a href="https://github.com/sidebase/sidebase" target="_blank" class="text-lg text-gray-400 hover:text-white">
               <i class="fa-brands fa-github" />
             </a>
             <a href="https://twitter.com/sidebase_io" target="_blank" class="text-lg text-gray-400 hover:text-white">
