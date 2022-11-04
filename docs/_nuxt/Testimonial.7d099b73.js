@@ -1,1 +1,0 @@
-import"./Testimonial.vue_vue_type_script_setup_true_lang.da124f44.js";import{_ as t}from"./Testimonial.vue_vue_type_script_setup_true_lang.da124f44.js";import"./entry.05b32a35.js";export{t as default};

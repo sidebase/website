@@ -1,7 +1,7 @@
 import type { MetaObject } from '@nuxt/schema'
 
 const SITE_TITLE = 'sidebase ▸ by SIDESTREAM'
-const PREVIEW_IMAGE = '/Social_Preview.jpeg'
+const PREVIEW_IMAGE = '/Social_Preview.jpg'
 const SITE_DESCRIPTION = 'sidebase is a modern, best-practice, batteries-included fullstack-app starter based on Nuxt3 and TypeScript.'
 const TWITTER_HANDLE = '@sidebase_io'
 
