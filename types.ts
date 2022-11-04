@@ -11,3 +11,11 @@ export interface Feature {
   icon: string
   description: string
 }
+
+export interface SidebaseModule {
+  title: string
+  description: string
+  getStartedLink: string
+  docsLink: string
+  gitHubLink: string
+}

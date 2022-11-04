@@ -42,8 +42,8 @@ export default defineComponent({
             </nuxt-link>
           </li>
           <li>
-            <nuxt-link to="/getting-started" class="border-pickled-bluewood-700 block border-b py-2 px-1 text-gray-400 hover:text-white lg:border-0 lg:px-0">
-              Documentation
+            <nuxt-link to="/modules" class="border-pickled-bluewood-700 block border-b py-2 px-1 text-gray-400 hover:text-white lg:border-0 lg:px-0">
+              Modules
             </nuxt-link>
           </li>
           <li>

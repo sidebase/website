@@ -1,11 +1,11 @@
 <template>
   <div class="bg-pickled-bluewood-700 hidden items-center justify-center py-3 text-[1rem] lg:flex">
-    <span class="bg-sidebase-green-800 mr-3 rounded-lg px-4 py-1.5 text-xs text-white">New!</span>
+    <span class="mr-3 rounded-lg bg-blue-600 px-4 py-1.5 text-xs text-white">Beta</span>
     <span class="text-gray-200">
-      We just opened the official sidebase Discord server!
+      We just launched our beta of nuxt-auth!
     </span>
-    <a href="https://discord.gg/VzABbVsqAc" target="_blank" class="text-sidebase-green ml-2 underline">
-      Join now!
-    </a>
+    <nuxt-link href="/nuxt-auth" class="text-blue ml-2 underline">
+      Check it out!
+    </nuxt-link>
   </div>
 </template>

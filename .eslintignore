@@ -1,6 +1,7 @@
 dist
 public
 docs
+content
 
 # ignore generate imports
 auto-imports.d.ts
