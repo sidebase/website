@@ -19,7 +19,7 @@ useHead(metaData)
     <div class="my-[80px]">
       <ModulesHeroSection />
       <div class="mx-auto mt-14 max-w-screen-xl">
-        <div class="flex flex-col items-center justify-center space-y-6 xl:flex-row xl:space-x-6">
+        <div class="flex flex-col items-center justify-center space-y-6 xl:flex-row xl:space-y-0 xl:space-x-6">
           <ModuleCard :module="modules[0]" />
           <div class="xl:scale-[107%]">
             <ModuleCard :module="modules[1]" />
