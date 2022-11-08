@@ -11,10 +11,10 @@ defineProps({
 </script>
 
 <template>
-  <div class="conic group shadow transition-all hover:scale-105">
-    <div class="animatedBorder h-[550px] w-[400px] rounded p-2">
+  <div class="conic group h-[550px] w-[400px] shadow transition-all hover:scale-105">
+    <div class="animatedBorder h-full w-full rounded p-2">
       <div class="PatternBG bg-pickled-bluewood-800 h-full w-full">
-        <div class="relative grid h-full place-content-center px-2 text-center">
+        <div class="relative grid h-full w-full place-content-center px-2 text-center">
           <h1 class="text-4xl font-bold text-white">
             {{ module.title }}
           </h1>
@@ -51,9 +51,9 @@ defineProps({
 .conic {
   position: relative;
   z-index: 0;
-  border-radius: 10px;
   overflow: hidden;
   padding: 0.3rem;
+  border-radius: 10px;
 
   &::before {
     opacity: 0;
