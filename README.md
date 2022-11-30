@@ -1,3 +1,6 @@
+> #### Please note:
+> This project is no longer being maintained and has been replaced by the new [sidebase docs](https://github.com/sidebase/docs).
+
 ![sidebase](./.github/sidebase.png)
 
 # sidebase.io
